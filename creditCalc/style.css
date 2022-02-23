@@ -81,3 +81,20 @@ select {
 	background-color: #fff;
 	color: #5cd65c;
 }
+
+table {
+	margin-top: 20px;
+	border-collapse: collapse;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #999999;
+}
+th {
+	padding: 10px;
+}
+
+td {
+	background-color: #fff;
+	padding: 10px;
+}

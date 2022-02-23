@@ -18,15 +18,15 @@
 			<ul class="form-table">
 				<li>
 					<label for="#">Сумма кредита</label>
-					<input type="number" class="input__summa">
+					<input type="text" class="input__summa">
 				</li>
 				<li>
 					<label for="#">Срок кредита</label>
-					<input type="number" class="input__period">
+					<input type="text" class="input__period">
 				</li>
 				<li>
 					<label for="#">Процентная ставка в год</label>
-					<input type="number" class="input__rate">
+					<input type="text" class="input__rate">
 				</li>
 				<li>
 					<label for="#">Вид расчёта</label>
@@ -41,13 +41,24 @@
 		<h1 class="title">Результаты расчёта</h1>
 
 		<table>
-			<tr>
-				<th></th>
-				<th></th>
-			</tr>
+
+			<thead>
+				<tr>
+					<th>Сумма кредита</th>
+					<th>% ставка</th>
+					<th>Ежемесячный платеж</th>
+					<th>Переоплата по кредиту</th>
+					<th>Общая выплата</th>
+				</tr>
+
+			</thead>
+			<tbody>
+
+			</tbody>
 		</table>
 
 	</div>
+
 
 
 	<script src="script.js"></script>
